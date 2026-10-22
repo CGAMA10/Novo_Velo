@@ -58,6 +58,7 @@ const OrderLookup = () => {
     }
     
     if (order) {
+      
       setSearchedOrder(order);
     } else {
       setNotFound(true);
